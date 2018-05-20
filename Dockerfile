@@ -1,5 +1,5 @@
 FROM library/ubuntu:artful
-MAINTAINER Jakub Bentkowski <bentkowski.jakub@gmail.com>
+MAINTAINER Kirk Roerig <mr.possoms@gmail.com>
 
 RUN apt-get update \
 	&& apt-get install -y \
@@ -13,13 +13,11 @@ RUN apt-get update \
 	llvm-5.0-dev \
 	libclang-5.0-dev \
 	git \
+	wget \
 	make \
 	cmake \
 	libglfw3-dev \
 	libglm-dev \
-	libspdlog-dev \
-	libassimp-dev \
-	qt5-default \
 	qttools5-dev-tools \
 	python-pip \
 	python-dev \
