@@ -19,6 +19,7 @@ RUN apt-get update \
 	libglfw3-dev \
 	libglm-dev \
 	qttools5-dev-tools \
+	libignition-math4-dev\
 	python-pip \
 	python-dev \
 	build-essential 
