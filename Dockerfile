@@ -20,6 +20,7 @@ RUN apt-get update \
 	libglm-dev \
 	qttools5-dev-tools \
 	libignition-math4-dev\
+	python3 \
 	python3-pip \
 	python3-dev \
 	build-essential 
