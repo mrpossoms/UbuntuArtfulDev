@@ -19,6 +19,7 @@ RUN apt-get update \
 	autogen \
 	automake \
 	autopoint \
+	autoconf-archive\
 	gettext \
 	libtool \
 	texinfo \
@@ -30,6 +31,8 @@ RUN apt-get update \
 	libignition-math4-dev\
 	libudev-dev\
 	bison\
+	flex\
+	gtk-doc-tools\
 	python3\
 	python3-pip \
 	python3-dev \
