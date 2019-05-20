@@ -1,4 +1,4 @@
-FROM library/ubuntu:artful
+FROM library/ubuntu:bionic
 MAINTAINER Kirk Roerig <mr.possoms@gmail.com>
 
 RUN apt-get update \
@@ -16,15 +16,26 @@ RUN apt-get update \
 	wget \
 	make \
 	cmake \
+	autogen \
+	automake \
+	autopoint \
+	gettext \
+	libtool \
+	texinfo \
+	curl \
 	libglfw3-dev \
 	libglm-dev \
 	qttools5-dev-tools \
+	libgazebo9-dev\
 	libignition-math4-dev\
-	python-pip \
-	python-dev \
+	libudev-dev\
+	bison\
+	python3\
+	python3-pip \
+	python3-dev \
 	build-essential 
 
-RUN pip install conan
+RUN pip3 install conan
 
 #RUN git clone https://github.com/google/googletest.git googletest && \
 #	cd googletest && \
